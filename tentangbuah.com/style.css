@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+}
+
+.content {
+  margin-top: 2%;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+header img {
+  width: 100px;
+  float: left;
+}
+
+header h1 {
+  margin-left: 10%;
+}
+
+nav {
+  clear: both;
+}
+
+nav ul {
+  margin-top: 7%;
+}
+
+section {
+  margin-top: 2%;
+}
+
+section p {
+  margin-top: 2%;
+}
+
+footer {
+  margin: 3%;
+  text-align: center;
+}
+
+#paragraf {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.huruf {
+  font-size: 17px;
+}
+
+.warna {
+  background: rgb(89, 134, 218);
+}
+
+.bentuk {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(160, 158, 158);
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+ul li {
+  background: rgb(160, 158, 158);
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+}
+
+ul li a {
+  color: black;
+}
+
+ul li:hover {
+  background: blueviolet;
+  cursor: pointer;
+}
+
+ul li ul {
+  visibility: hidden;
+  position: absolute;
+  margin-top: 10px;
+  left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+  background-color: rgb(160, 158, 158);
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
